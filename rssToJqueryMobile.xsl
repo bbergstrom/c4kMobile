@@ -13,10 +13,16 @@
 		<div id="{title}-index" data-role="page" class="page">
 			<xsl:call-template name="header"/>
 			<div data-role="content">
+				<div class="ad">
+					<img src="mobile_ad.jpg" width="300" height="50" border="0" alt="advertisement"/>
+				</div>
 				<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="a">
 					<li data-role="list-divider">News</li>
 					<xsl:apply-templates select="item"/>
 				</ul>
+				<div class="ad">
+					<img src="mobile_ad.jpg" width="300" height="50" border="0" alt="advertisement"/>
+				</div>
 			</div>
 			<xsl:call-template name="footer"/>
 		</div>
@@ -103,37 +109,32 @@
 			</xsl:call-template>
 			
 			<div class="content" data-role="content">
+				<div class="ad">
+					<img src="mobile_ad.jpg" width="300" height="50" border="0" alt="advertisement"/>
+				</div>
 			    <ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="a">
 			        <li data-role="list-divider">News</li>
 			        <li class="detailContent">
-    			    <script type="text/javascript">
-    			        <!--$('#<xsl:value-of select="$id"/> div.content li.detailContent').load('<xsl:value-of select="concat($proxyUrl, link)"/>');-->
-    			        $.get('<xsl:value-of select="concat($proxyUrl, link)"/>', function(data) {
-    			            var newPath = 'http://channel4000.live.ib-prod.com';
-    			            while (data.indexOf("src=\"/") != -1) {
-        			        	data = data.replace("src=\"/", "src=\""+newPath+"/");
-        			        }
-        			        
-    			            $('#<xsl:value-of select="$id"/> div.content li.detailContent').html(data);
-    			    	
-    			    		$('#<xsl:value-of select="$id"/> div.content li.detailContent').find( "[src], link[href], a[rel='external'], :jqmData(ajax='false'), a[target]" ).each(function() {
-		    			    	var thisAttr = $( this ).is( '[href]' ) ? 'href' :
-		    			    	$(this).is('[src]') ? 'src' : 'action',
-		    			    	thisUrl = $( this ).attr( thisAttr );
-		    			    	
-		    			    	// XXX_jblas: We need to fix this so that it removes the document
-		    			    	//            base URL, and then prepends with the new page URL.
-		    			    	//if full path exists and is same, chop it - helps IE out
-		    			    	thisUrl = thisUrl.replace( location.protocol + '//' + location.host + location.pathname, '' );
-		    			    	
-		    			    	if( !/^(\w+:|#|\/)/.test( thisUrl ) ) {
-		    			    	$( this ).attr( thisAttr, newPath + thisUrl );
-		    			    	}
-	    			    	});
-    			        });
-    			    </script>
 			        </li>
-                </ul>
+			    	<script type="text/javascript">
+			    		<!--$('#<xsl:value-of select="$id"/> div.content li.detailContent').load('<xsl:value-of select="concat($proxyUrl, link)"/>');-->
+			    		$.get('<xsl:value-of select="concat($proxyUrl, link)"/>', function(data) {
+				    		var newPath = 'http://channel4000.live.ib-prod.com';
+				    		while (data.indexOf("src=\"/") != -1) {
+				    			data = data.replace("src=\"/", "src=\""+newPath+"/");
+				    		}
+				    		while (data.indexOf("href=\"/") != -1) {
+				    			data = data.replace("href=\"/", "href=\""+newPath+"/");
+				    		}
+				    		
+				    		$('#<xsl:value-of select="$id"/> div.content li.detailContent').html(data);
+				    		
+			    		});
+			    	</script>
+			    </ul>
+				<div class="ad">
+					<img src="mobile_ad.jpg" width="300" height="50" border="0" alt="advertisement"/>
+				</div>
 			</div>
 			<xsl:call-template name="footer">
 				<xsl:with-param name="isDetail" select="'true'"/>
