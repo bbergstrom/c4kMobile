@@ -1,0 +1,1 @@
+<esi:include src="http://channel4000.live.ib-prod.com/news/-/131188/-/format/rss_2.0/view/asFeed/-/154m3ai/-/index.xml" ttl="1m" stylesheet="http://www.channel1000.com/sh/esi/dev/bbergstrom/c4kMobile/rssToJqueryMobile.xsl" dca="'xslt->esi'"/>

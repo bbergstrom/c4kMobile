@@ -1,0 +1,7 @@
+<esi:choose>
+    <esi:when test="!$is_empty($(QUERY_STRING{'u'}))">
+ 		<esi:assign name="url" value="$(QUERY_STRING{'u'})"/>
+		<esi:include src="$(url)" ttl="5m" />
+	</esi:when>
+	<esi:otherwise><!--no url provided--></esi:otherwise>
+</esi:choose>

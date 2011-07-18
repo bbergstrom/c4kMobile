@@ -1,0 +1,374 @@
+<?xml version="1.0"?>
+<location cityid="5510100199999">
+  <country>US</country>
+  <state>MN</state>
+  <city>Saint Paul</city>
+  <tz_short>CDT</tz_short>
+  <lat>44.97010040</lat>
+  <lon>-93.08209991</lon>
+  <WUIURL>/MN/Saint_Paul.html</WUIURL>
+  <current_conditions>
+  <date>
+  <epoch>1310795580</epoch>
+  <pretty_short>12:53 AM CDT</pretty_short>
+  <pretty>12:53 AM CDT on July 16, 2011</pretty>
+  <day>16</day>
+  <month>7</month>
+  <year>2011</year>
+  <yday>196</yday>
+  <hour>0</hour>
+  <min>53</min>
+  <sec>0</sec>
+  <isdst>1</isdst>
+  <monthname>July</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Saturday]]></weekday>
+  <ampm>AM</ampm>
+  <tz_short>CDT</tz_short>
+  <tz_long>America/Chicago</tz_long>
+</date>
+    <icao_code>KSTP</icao_code>
+    <wmo_code>99999</wmo_code>
+  
+    <name>St. Paul</name>
+  
+	<condition_icon>http://icons.wunderground.com/graphics/conds/partlycloudy.GIF
+	</condition_icon>
+
+    <temperature>
+      <fahrenheit>70</fahrenheit>
+      <celsius>21</celsius>
+    </temperature>
+
+    <dewpoint>
+      <fahrenheit>68</fahrenheit>
+      <celsius>20</celsius>
+    </dewpoint>
+
+    <humidity>93%</humidity>
+
+    <windchill>
+      <fahrenheit>-999</fahrenheit>
+      <celsius>-999</celsius>
+    </windchill>
+
+    <heatindex>
+      <fahrenheit>-9999</fahrenheit>
+      <celsius>-9999</celsius>
+    </heatindex>
+
+    <wind>
+       <mph>0</mph>
+       <kmh>0</kmh>
+       <direction>North</direction>
+    </wind>
+
+    <windgust>
+       <mph>-9999</mph>
+       <kmh>-9999</kmh>
+    </windgust>
+
+    <pressure>
+        <inches>29.89</inches>
+        <hpa>1012</hpa>
+    </pressure>
+
+    <pressuretrend>+</pressuretrend>
+    <visibility>
+      <sm>8.0</sm>
+      <km>12.9</km>
+    </visibility>
+
+	  
+	  
+		
+	  
+	
+	<clouds count="1">
+	  
+	  <cloudlayer>
+           <ft>5000</ft>
+           <meters>1524</meters>
+           <cover>FEW</cover>
+	  </cloudlayer>
+	  
+	</clouds>
+	
+
+	<conditions_full>Partly Cloudy</conditions_full>
+	<icon>partlycloudy</icon>
+	
+  </current_conditions>
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+  <astronomy>
+    <sunrise><date>
+  <epoch>1310812845</epoch>
+  <pretty_short>5:40 AM CDT</pretty_short>
+  <pretty>5:40 AM CDT on July 16, 2011</pretty>
+  <day>16</day>
+  <month>7</month>
+  <year>2011</year>
+  <yday>196</yday>
+  <hour>5</hour>
+  <min>40</min>
+  <sec>45</sec>
+  <isdst>1</isdst>
+  <monthname>July</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Saturday]]></weekday>
+  <ampm>AM</ampm>
+  <tz_short>CDT</tz_short>
+  <tz_long>America/Chicago</tz_long>
+</date></sunrise>
+    <sunset><date>
+  <epoch>1310867730</epoch>
+  <pretty_short>8:55 PM CDT</pretty_short>
+  <pretty>8:55 PM CDT on July 16, 2011</pretty>
+  <day>16</day>
+  <month>7</month>
+  <year>2011</year>
+  <yday>196</yday>
+  <hour>20</hour>
+  <min>55</min>
+  <sec>30</sec>
+  <isdst>1</isdst>
+  <monthname>July</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Saturday]]></weekday>
+  <ampm>PM</ampm>
+  <tz_short>CDT</tz_short>
+  <tz_long>America/Chicago</tz_long>
+</date></sunset>
+    <sunrise_yesterday><date>
+  <epoch>1310726390</epoch>
+  <pretty_short>5:39 AM CDT</pretty_short>
+  <pretty>5:39 AM CDT on July 15, 2011</pretty>
+  <day>15</day>
+  <month>7</month>
+  <year>2011</year>
+  <yday>195</yday>
+  <hour>5</hour>
+  <min>39</min>
+  <sec>50</sec>
+  <isdst>1</isdst>
+  <monthname>July</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Friday]]></weekday>
+  <ampm>AM</ampm>
+  <tz_short>CDT</tz_short>
+  <tz_long>America/Chicago</tz_long>
+</date></sunrise_yesterday>
+    <sunset_yesterday><date>
+  <epoch>1310781374</epoch>
+  <pretty_short>8:56 PM CDT</pretty_short>
+  <pretty>8:56 PM CDT on July 15, 2011</pretty>
+  <day>15</day>
+  <month>7</month>
+  <year>2011</year>
+  <yday>195</yday>
+  <hour>20</hour>
+  <min>56</min>
+  <sec>14</sec>
+  <isdst>1</isdst>
+  <monthname>July</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Friday]]></weekday>
+  <ampm>PM</ampm>
+  <tz_short>CDT</tz_short>
+  <tz_long>America/Chicago</tz_long>
+</date></sunset_yesterday>
+    <moonrise><date>
+  <epoch>1310869980</epoch>
+  <pretty_short>9:33 PM CDT</pretty_short>
+  <pretty>9:33 PM CDT on July 16, 2011</pretty>
+  <day>16</day>
+  <month>7</month>
+  <year>2011</year>
+  <yday>196</yday>
+  <hour>21</hour>
+  <min>33</min>
+  <sec>0</sec>
+  <isdst>1</isdst>
+  <monthname>July</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Saturday]]></weekday>
+  <ampm>PM</ampm>
+  <tz_short>CDT</tz_short>
+  <tz_long>America/Chicago</tz_long>
+</date></moonrise>
+    <moonset><date>
+  <epoch>1310818500</epoch>
+  <pretty_short>7:15 AM CDT</pretty_short>
+  <pretty>7:15 AM CDT on July 16, 2011</pretty>
+  <day>16</day>
+  <month>7</month>
+  <year>2011</year>
+  <yday>196</yday>
+  <hour>7</hour>
+  <min>15</min>
+  <sec>0</sec>
+  <isdst>1</isdst>
+  <monthname>July</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Saturday]]></weekday>
+  <ampm>AM</ampm>
+  <tz_short>CDT</tz_short>
+  <tz_long>America/Chicago</tz_long>
+</date></moonset>
+    <moonrise_yesterday><date>
+  <epoch>1310781840</epoch>
+  <pretty_short>9:04 PM CDT</pretty_short>
+  <pretty>9:04 PM CDT on July 15, 2011</pretty>
+  <day>15</day>
+  <month>7</month>
+  <year>2011</year>
+  <yday>195</yday>
+  <hour>21</hour>
+  <min>04</min>
+  <sec>0</sec>
+  <isdst>1</isdst>
+  <monthname>July</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Friday]]></weekday>
+  <ampm>PM</ampm>
+  <tz_short>CDT</tz_short>
+  <tz_long>America/Chicago</tz_long>
+</date></moonrise_yesterday>
+    <moonset_yesterday><date>
+  <epoch>1310728020</epoch>
+  <pretty_short>6:07 AM CDT</pretty_short>
+  <pretty>6:07 AM CDT on July 15, 2011</pretty>
+  <day>15</day>
+  <month>7</month>
+  <year>2011</year>
+  <yday>195</yday>
+  <hour>6</hour>
+  <min>07</min>
+  <sec>0</sec>
+  <isdst>1</isdst>
+  <monthname>July</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Friday]]></weekday>
+  <ampm>AM</ampm>
+  <tz_short>CDT</tz_short>
+  <tz_long>America/Chicago</tz_long>
+</date></moonset_yesterday>
+    <current_moon_age>16</current_moon_age>
+    <moon_phases  count="4">
+        
+           <moonphase >
+              <phase>23</phase>
+              <phase_name>Last Quarter</phase_name>
+               <date>
+  <epoch>1311397440</epoch>
+  <pretty_short>1:04 AM EDT</pretty_short>
+  <pretty>1:04 AM EDT on July 23, 2011</pretty>
+  <day>23</day>
+  <month>7</month>
+  <year>2011</year>
+  <yday>203</yday>
+  <hour>1</hour>
+  <min>04</min>
+  <sec>0</sec>
+  <isdst>1</isdst>
+  <monthname>July</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Saturday]]></weekday>
+  <ampm>AM</ampm>
+  <tz_short>EDT</tz_short>
+  <tz_long>America/New_York</tz_long>
+</date>
+           </moonphase>
+        
+           <moonphase >
+              <phase>1</phase>
+              <phase_name>New</phase_name>
+               <date>
+  <epoch>1312051186</epoch>
+  <pretty_short>2:39 PM EDT</pretty_short>
+  <pretty>2:39 PM EDT on July 30, 2011</pretty>
+  <day>30</day>
+  <month>7</month>
+  <year>2011</year>
+  <yday>210</yday>
+  <hour>14</hour>
+  <min>39</min>
+  <sec>46</sec>
+  <isdst>1</isdst>
+  <monthname>July</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Saturday]]></weekday>
+  <ampm>PM</ampm>
+  <tz_short>EDT</tz_short>
+  <tz_long>America/New_York</tz_long>
+</date>
+           </moonphase>
+        
+           <moonphase >
+              <phase>8</phase>
+              <phase_name>First Quarter</phase_name>
+               <date>
+  <epoch>1312628937</epoch>
+  <pretty_short>7:08 AM EDT</pretty_short>
+  <pretty>7:08 AM EDT on August 06, 2011</pretty>
+  <day>6</day>
+  <month>8</month>
+  <year>2011</year>
+  <yday>217</yday>
+  <hour>7</hour>
+  <min>08</min>
+  <sec>57</sec>
+  <isdst>1</isdst>
+  <monthname>August</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Saturday]]></weekday>
+  <ampm>AM</ampm>
+  <tz_short>EDT</tz_short>
+  <tz_long>America/New_York</tz_long>
+</date>
+           </moonphase>
+        
+           <moonphase >
+              <phase>16</phase>
+              <phase_name>Full</phase_name>
+               <date>
+  <epoch>1313261869</epoch>
+  <pretty_short>2:57 PM EDT</pretty_short>
+  <pretty>2:57 PM EDT on August 13, 2011</pretty>
+  <day>13</day>
+  <month>8</month>
+  <year>2011</year>
+  <yday>224</yday>
+  <hour>14</hour>
+  <min>57</min>
+  <sec>49</sec>
+  <isdst>1</isdst>
+  <monthname>August</monthname>
+  <weekday_short></weekday_short>
+  <weekday><![CDATA[Saturday]]></weekday>
+  <ampm>PM</ampm>
+  <tz_short>EDT</tz_short>
+  <tz_long>America/New_York</tz_long>
+</date>
+           </moonphase>
+        
+    </moon_phases>
+  </astronomy>
+
+</location>

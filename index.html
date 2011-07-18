@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Channel 4000 - News</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.css" />
+<script src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.js"></script>
+<style type="text/css">
+.page header {
+	background:#000;
+	padding:10px;
+}
+.page header .logo {
+	text-align:center;
+}
+.page header .wx {
+	text-align:center;
+	color:#FFF;
+}
+.page header .wx a {
+	color:#FFF;
+}
+.page header nav {
+	clear:both;
+}
+.page .content {
+}
+.page footer {
+	background:#000;
+	padding:10px;
+}
+.page footer .logo {
+	text-align:center;
+}
+
+.article .utils {
+	display:none;
+}
+.article .aside {
+	margin-bottom:20px;
+}
+.article .footer {
+	margin:20px 0;
+}
+.article .ui-li-heading,
+.article .ui-li-desc {
+	margin:5px 0;
+}
+.article .figure img {
+	width:200px;
+}
+.detail .detailContent {
+	padding:10px;
+}
+.ui-li-heading,
+.ui-li-desc {
+	text-overflow:visible;
+	white-space:normal;
+}
+.logo img {border:none;}
+.wx .cc .ui-block-a {text-align:right;}
+.wx .cc .ui-block-b {text-align:left;}
+</style>
+<script type="text/javascript">
+ibsys = {};
+ibsys.article = {};
+ibsys.article.console = {}
+ibsys.article.console.init = function(){};
+</script>
+</head>
+<body xmlns:esi="http://www.edge-delivery.org/esi/1.0">
+	<esi:try>
+		<esi:attempt>
+	    	<esi:include src="http://channel4000.live.ib-prod.com/news/-/131188/-/format/rss_2.0/view/asFeed/-/154m3ai/-/index.xml" ttl="5m" maxwait="30000" stylesheet="rssToJqueryMobile.xsl" dca="'xslt->esi'"> 
+			</esi:include>
+		</esi:attempt>
+		<esi:except>
+			<!-- Error fetching or transforming rss feed. -->
+		</esi:except>
+	</esi:try>
+</body>
+</html>
